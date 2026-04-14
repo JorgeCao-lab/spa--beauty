@@ -28,9 +28,11 @@ Practicar maquetación profesional, estructura de estilos y flujo de trabajo con
 
 ---
 
-## 🌐 Deploy
-👉 (agregar link de Vercel acá)
-
+---
+## 🚀 Demo en Vivo
+Haz clic en el siguiente enlace para explorar la landing page:
+🔗 **[Visitar Spa & Beauty](https://spa-beauty-lovat.vercel.app/)**
+---
 ---
 
 ## 📂 Estructura
