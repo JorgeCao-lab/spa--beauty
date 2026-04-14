@@ -1,0 +1,101 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
+
+.header{
+    position: relative;
+    z-index: 100;
+  &__navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.navbar{
+    width: 100%;
+    margin-inline:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+        &__layout__container{
+            display: flex;
+            
+        }
+
+        &__img{
+            display: flex;
+            justify-content:start;
+        }
+
+        &__menu{
+         ul{
+            display: flex;
+            align-items: center;
+            
+            gap: 60px;
+            list-style: none;
+            }
+            li{
+                color: variables.$color-blue;
+            }
+        .sub-menu a{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+        }
+        .sub-menu{
+            position: relative;
+
+            ul{
+            position: absolute;
+            display: flex;
+            flex-direction:column;
+            justify-content: start;
+            align-items: start;
+            gap: 8px;
+
+            opacity: 0;
+            transition: 0.5s;
+            pointer-events: none;
+            }
+        ul li{
+            color: variables.$color-blue;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: 0.3s;
+        }
+    
+        &:hover ul{
+            opacity:1;
+            pointer-events: auto;
+            }
+        &:hover ul li{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        &:hover ul li:nth-child(1){
+            transition-delay: 0.5s;
+        }      
+        &:hover ul li:nth-child(2){
+            transition-delay: 0.8s;
+        }
+        }
+    }
+        &__sign {
+            gap: 55px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            z-index: 9;
+            .sign-in{
+                text-decoration:underline;
+                color: variables.$color-blue;
+            }
+        }
+}

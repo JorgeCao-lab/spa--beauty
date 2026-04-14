@@ -1,0 +1,8 @@
+@use '../abstracts/variables';
+
+
+.card{
+    display:flex;
+    background:rgba(variables.$color-width,0.3);
+    backdrop-filter: blur(10px);
+}

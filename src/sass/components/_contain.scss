@@ -1,0 +1,10 @@
+@use "../abstracts/mixins";
+@use "../components/button";
+
+.container{
+    @include mixins.container;
+}
+
+.btn {
+    @include mixins.button;
+}

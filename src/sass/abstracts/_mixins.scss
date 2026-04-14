@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+
+
+@mixin container(){
+    width: 100%;
+    align-items: center;
+    margin-inline:auto;
+    padding-inline: 16px;
+    max-width: 1320px;
+}
+
+@mixin button(){
+    display: inline-block;
+    padding: 8px 10px;
+    color: variables.$color-width;
+    background: variables.$color-blue;
+    border-radius:20px;
+    font-size: 15px;
+}
