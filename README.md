@@ -30,7 +30,7 @@ Practicar maquetación profesional, estructura de estilos y flujo de trabajo con
 
 ---
 ## 🌐 Deploy
-👉 [Ver sitio en vivo](https://spa-beauty-lovat.vercel.app/)##
+👉 [Ver sitio en vivo](https://spa-beauty-lovat.vercel.app/)
 ---
 ---
 
